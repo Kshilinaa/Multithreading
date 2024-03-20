@@ -6,10 +6,10 @@
 //
 
 import UIKit
-
+//Задача разгрузить главный поток
 final class TaskOne : UIViewController {
     /// Только первый цикл перевести в другой поток с помощью Thread.detachNewThread и обяснить почему изменился вывод.
-    //Изначально выводилось все в один поток, а используя Thread.detachNewThread выводится будет в 2 разных потока
+    // Ответ: Изначально выводилось все в один поток, а используя Thread.detachNewThread выводится будет в 2 разных потока
     override func viewDidLoad() {
         super.viewDidLoad()
         for _ in (0..<10) {

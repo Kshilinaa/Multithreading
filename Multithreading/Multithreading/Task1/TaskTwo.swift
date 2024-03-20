@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+//Задача Создать второй поток на базе Thread, создать таймер так чтобы он заработал
 final class TaskTwo : UIViewController {
     
     override func viewDidLoad() {
